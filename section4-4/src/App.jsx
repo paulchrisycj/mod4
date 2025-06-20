@@ -8,6 +8,7 @@ function App() {
       <h1><u>Mini Activity</u></h1>
       <MiniActivity/>
       <hr />
+      <h1>Assignment</h1>
       <Assignment/>
     </div>
   )

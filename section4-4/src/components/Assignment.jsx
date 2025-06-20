@@ -20,6 +20,11 @@ function Assignment(){
                 <br />
                 <input type="submit" onClick={btnClick} />
             </form>
+            <br />
+            <h2>Output</h2>
+            <h3>Name: {name}</h3>
+            <h3>Rating: {rating}</h3>
+            <h3>Comment: {comment}</h3>
         </div>
     )
 }
