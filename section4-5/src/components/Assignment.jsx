@@ -8,9 +8,9 @@ const Assignment = () => {
     setLoading(true);
     try {
       // This API does not work anymore, why don't you try replacing it with another API?
-      const response = await fetch('https://api.quotable.io/random');
+      const response = await fetch('https://api.animechan.io/v1/quotes/random');
       const data = await response.json();
-      setQuote(data);
+      setQuote(data.data.content);
     } catch (error) {
       console.error('Error fetching quote:', error);
     }
