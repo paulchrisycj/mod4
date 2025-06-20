@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from "../assets/react.svg";
 import viteLogo from "/vite.svg";
 import "../App.css";
+import { Link } from 'react-router-dom';
 
 function StartPage() {
   const [count, setCount] = useState(0);
@@ -26,6 +27,9 @@ function StartPage() {
         Just install and run this app, and try going to{" "}
         <a href="/explanation">http://localhost:5173/explanation</a> for more
         info
+      </p>
+      <p className="read-the-docs">
+        Now, let's navigate to the <Link to="/Home">homepage</Link> for our Mini Activity
       </p>
     </>
   );
