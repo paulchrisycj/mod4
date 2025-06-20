@@ -4,6 +4,7 @@ import StartPage from './components/StartPage'
 import './App.css'
 import Explanation from './components/Explanation'
 import { MiniActivityHome, MiniActivityAbout } from './components/MiniActivity'
+import Assignment from './components/Assignment'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Route path="/explanation" element={<Explanation/>}/>
       <Route path="/home" element={<MiniActivityHome/>}/>
       <Route path="/about" element={<MiniActivityAbout/>}/>
+      <Route path="/profile/:username" element={<Assignment/>}/>
     </Routes>
   )
 }

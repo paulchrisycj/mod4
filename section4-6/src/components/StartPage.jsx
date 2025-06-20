@@ -31,6 +31,9 @@ function StartPage() {
       <p className="read-the-docs">
         Now, let's navigate to the <Link to="/Home">homepage</Link> for our Mini Activity
       </p>
+      <p className="read-the-docs">
+        Once you are done with the Mini Activity, this is how the assignent should work, <Link to="/profile/Howie">Howie</Link> OR <Link to="/profile/Siti">Siti</Link>
+      </p>
     </>
   );
 }
